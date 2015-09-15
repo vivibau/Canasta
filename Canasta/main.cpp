@@ -1,4 +1,4 @@
-#include "canastamainwindow.h"
+#include "ui/canastamainwindow.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

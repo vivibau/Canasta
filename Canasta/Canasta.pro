@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        canastamainwindow.cpp
+    ui/canastamainwindow.cpp \
+    utils/geometry.cpp
 
-HEADERS  += canastamainwindow.h
+HEADERS  += ui/canastamainwindow.h \
+    utils/geometry.h
 
-FORMS    += canastamainwindow.ui
+FORMS    += ui/canastamainwindow.ui

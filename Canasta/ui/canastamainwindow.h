@@ -2,6 +2,7 @@
 #define CANASTAMAINWINDOW_H
 
 #include <QMainWindow>
+#include "utils/geometry.h"
 
 namespace Ui {
 class CanastaMainWindow;
@@ -17,6 +18,9 @@ public:
 
 private:
     Ui::CanastaMainWindow *ui;
+    Geometry mGeometry;
+
+    void resizeEvent(QResizeEvent *apEvent);
 };
 
 #endif // CANASTAMAINWINDOW_H
